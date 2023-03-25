@@ -139,3 +139,25 @@ public class basic_calculator {
         cc.menu();
     }
 }
+
+
+Output is follows:
+
+Press no. to choose the Arithmetic Operation
+1.Addition
+2.Subtraction
+3,Multiply
+4.Division
+Ans: 1
+Enter the digit for Addition.
+Enter First digit :  sgsdf
+Invalid input! Enter First digit :zfdfh
+Invalid input! Enter First digit :g
+Invalid input! Enter First digit :5
+Enter Second digit :  drtjbr
+Invalid input! Enter Second digit :sdgv
+Invalid input! Enter Second digit :jkhgfh
+Invalid input! Enter Second digit :6
+The result is :11.0
+
+Process finished with exit code 0
