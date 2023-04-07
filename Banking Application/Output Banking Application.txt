@@ -1,0 +1,67 @@
+C:\Users\SUNIL\.jdks\openjdk-19.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar=57606:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\SUNIL\IdeaProjects\untitled4\out\production\untitled4 com.company.Banking_System
+Enter your name :Admin
+Enter Customer id : 0007
+Welcome to our Banking System Admin
+Your Bank Id 0007
+
+
+1) Check Amount
+2) Deposit Amount
+3) Withdraw Amount
+4) Previous Transaction
+5) Exit
+-----------------------
+Choose Option: 1
+------------------------
+-----------
+Balance is : 0.0
+............
+-----------------------
+Choose Option: 2
+------------------------
+-------------
+Enter the amount to deposit: 10000
+Final Balance : 10000.0
+..............
+-----------------------
+Choose Option: 3
+------------------------
+--------------
+Enter the amount to withdraw : 5000
+Final Balance : 5000.0
+................
+-----------------------
+Choose Option: 4
+------------------------
+---------------
+Previous Transaction
+Withdrawn 5000.0
+..............
+-----------------------
+Choose Option: 3
+------------------------
+--------------
+Enter the amount to withdraw : 5000
+Final Balance : 0.0
+................
+-----------------------
+Choose Option: 1
+------------------------
+-----------
+Balance is : 0.0
+............
+-----------------------
+Choose Option: 4
+------------------------
+---------------
+Previous Transaction
+Withdrawn 5000.0
+..............
+-----------------------
+Choose Option: 5
+------------------------
+*****************
+Thank you for using Our Banking Service.
+
+Process finished with exit code 0
+
