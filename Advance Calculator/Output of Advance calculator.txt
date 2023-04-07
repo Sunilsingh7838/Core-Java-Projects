@@ -1,0 +1,72 @@
+C:\Users\SUNIL\.jdks\openjdk-19.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar=59384:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\SUNIL\IdeaProjects\untitled4\out\production\untitled4 com.company.Advance_calculator
+Press no. to choose the Arithmetic Operation
+1.Addition
+2.Subtraction
+3,Multiply
+4.Division
+Choose Operation : 1
+Enter Number for Addition
+Enter the digit for Addition.
+Enter First digit :  12
+Enter Second digit :  12
+The result is :24.0
+------------------
+Choose Operation : 1
+Enter Number for Addition
+Enter the digit for Addition.
+Enter First digit :  13
+Enter Second digit :  kgf
+Invalid input! Enter Second digit :42
+The result is :55.0
+------------------
+Choose Operation : 2
+Enter Number for Subtraction
+Enter the digit for Subtraction.
+Enter First digit :  22
+Enter Second digit :  10
+The result is :12.0
+------------------
+Choose Operation : 2
+Enter Number for Subtraction
+Enter the digit for Subtraction.
+Enter First digit :  gh
+Invalid input! Enter First digit :45
+Enter Second digit :  10
+The result is :35.0
+------------------
+Choose Operation : 3
+Enter Number for Multiply
+Enter the digit for Multiplication.
+Enter First digit :  23
+Enter Second digit :  fg
+Invalid input! Enter Second digit :10
+The result is :230.0
+------------------
+Choose Operation : 4
+Enter Number for Division
+Enter the digit for Division.
+Enter First digit :  10
+Enter Second digit :  2
+The Result is :5.0
+------------------
+Choose Operation : 4
+Enter Number for Division
+Enter the digit for Division.
+Enter First digit :  12
+Enter Second digit :  0
+Cannot divide by 0.
+The Result is :Infinity
+------------------
+Choose Operation : 4
+Enter Number for Division
+Enter the digit for Division.
+Enter First digit :  24
+Enter Second digit :  fh
+Invalid input! Enter Second digit :12
+The Result is :2.0
+------------------
+Choose Operation : 7
+Choose only given Options
+Choose Operation : fg
+Choose only given Options
+Choose Operation : 
