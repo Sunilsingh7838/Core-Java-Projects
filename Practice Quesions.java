@@ -4,10 +4,10 @@ import java.util.Stack;
 
 public class for_loop {
     public static void main(String[] args) {
-/*
-        For loop
 
-$       Question 1
+//        For loop
+
+//$       Question 1
         sum of first 10 natural numbers
         int sum = 0;
         for (int i = 0; i <= 10; i++) {
@@ -15,7 +15,7 @@ $       Question 1
         }
         System.out.println("sum : " + sum);
 
-$       Question 2 table of 2
+//$       Question 2 table of 2
         int sum = 0;
         for (int i = 1; i <= 10; i++) {
            System.out.println(" 2 x " + i + " = " + 2*i);
@@ -23,7 +23,7 @@ $       Question 2 table of 2
             System.out.println(" 2 x " + i + " = " + sum);
         }
 
-$       Question 3 Print the table by taking data from user.
+//$       Question 3 Print the table by taking data from user.
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number :  ");
         int num = sc.nextInt();
@@ -38,7 +38,7 @@ $       Question 3 Print the table by taking data from user.
 
 
 
-$     Question 4 .Find the factorial value entered through keyboard.
+//$     Question 4 .Find the factorial value entered through keyboard.
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number for Factorial : ");
@@ -55,7 +55,7 @@ $     Question 4 .Find the factorial value entered through keyboard.
         }
 
 
-$       Question 5 To reverse the string given by user.
+//$       Question 5 To reverse the string given by user.
 
         String revString = "";
         String string;
@@ -73,7 +73,7 @@ $       Question 5 To reverse the string given by user.
 
 
 
-$     Question 6 Write a program that prompts the user to input an integer and then
+//$     Question 6 Write a program that prompts the user to input an integer and then
       outputs the number with the digits reversed. For example, if the input
       is 12345, the output should be 54321.
 
@@ -105,7 +105,7 @@ $     Question 6 Write a program that prompts the user to input an integer and t
         System.out.println("The Reverse is : " + reverseNumber);
 
 
-$       Question 7 Print the largest number in an Array.
+//$       Question 7 Print the largest number in an Array.
 
         int [] marks = new int[]{34,45,67,87,23,45,77,34,54};
         int highestMarks = marks[0];
@@ -127,7 +127,7 @@ $       Question 7 Print the largest number in an Array.
 
 
 
-$       Question 8 Print the largest number in an Array using inbuilt package.
+//$       Question 8 Print the largest number in an Array using inbuilt package.
         int [] marks = new int[]{34,45,67,87,23,45,77,34,54};
         Arrays.sort(marks);
 
@@ -138,7 +138,7 @@ $       Question 8 Print the largest number in an Array using inbuilt package.
 
 
 
-$      Question 9. Forcing user to type only integer type value
+//$      Question 9. Forcing user to type only integer type value
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
@@ -153,7 +153,7 @@ $      Question 9. Forcing user to type only integer type value
 
 
 
-$       Question 10. Printing an Array in ascending and descending order using nested loops.
+//$       Question 10. Printing an Array in ascending and descending order using nested loops.
 
         Integer [] height ={23,54,67,35,87,56,98,100,4,5,67,};
 
@@ -193,7 +193,7 @@ $       Question 10. Printing an Array in ascending and descending order using n
         }
 
 
-$      Question 11. Printing an Array in ascending and descending order using inbuilt methods.
+//$      Question 11. Printing an Array in ascending and descending order using inbuilt methods.
         Integer [] array = {23, -9, 78, 102, 4, 0, -1, 11, 6, 110, 205};
         // sorts array[] in ascending order
 
@@ -205,7 +205,7 @@ $      Question 11. Printing an Array in ascending and descending order using in
         System.out.println("Array elements in descending order: " +Arrays.toString(array));
 
 
-$       Question12. Write a java programme to check whether the number is prime or not by taking input from user.
+//$       Question12. Write a java programme to check whether the number is prime or not by taking input from user.
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number to check whether it is prime or not : ");
@@ -227,7 +227,7 @@ $       Question12. Write a java programme to check whether the number is prime 
         }
 
 
-$       Question 13. Java programme to check that given String is palindrome or not.
+//$       Question 13. Java programme to check that given String is palindrome or not.
 
         String str = "racecar";
         boolean isPalindrome = true;
@@ -247,7 +247,7 @@ $       Question 13. Java programme to check that given String is palindrome or 
         }
 
 
-$       Question 14 . Java Programme to find second-highest number in an Array using inbuilt methods in java.
+//$       Question 14 . Java Programme to find second-highest number in an Array using inbuilt methods in java.
 
         Integer [] marks = { 10 ,20,40,35,78,32,64,};
 
@@ -258,7 +258,7 @@ $       Question 14 . Java Programme to find second-highest number in an Array u
         System.out.println(" The lowest no. is : " + marks[0]);
 
 
-$       Question 14 . Java Programme to find second-highest number in an Array without using inbuilt methods in java.
+//$       Question 14 . Java Programme to find second-highest number in an Array without using inbuilt methods in java.
 
         int [] marks = { 10 ,20,40,35,78,32,64,};
         int highest = Integer.MIN_VALUE;
@@ -276,7 +276,7 @@ $       Question 14 . Java Programme to find second-highest number in an Array w
         System.out.println("The Second-Highest number is : " + secondHighest);
 
 
-$       Question 15. Write the java programme to implement a stack using array.
+//$       Question 15. Write the java programme to implement a stack using array.
 
         Stack<Integer> stack = new Stack<>();
         Stack<String> stack1 = new Stack<>();
@@ -304,6 +304,5 @@ $       Question 15. Write the java programme to implement a stack using array.
         System.out.println("The updated stack1 is : "+ stack1);
         System.out.println("stack1 of peek is :" + stack1.peek());
 
- */
     }
 }
